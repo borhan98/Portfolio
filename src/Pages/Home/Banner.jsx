@@ -2,7 +2,7 @@ import photo2 from "../../assets/Borhan2.png";
 
 const Banner = () => {
   return (
-    <div className="container mx-auto px-2 lg:px-0 flex flex-col md:flex-row gap-4 md:items-center justify-evenly bg-[#ebedff] py-10 md:py-20">
+    <div className="container mx-auto px-2 lg:px-0 flex flex-col md:flex-row gap-4 md:items-center justify-evenly bg-[#ebedff] pt-14 md:pt-28 pb-6">
       <div className="order-2 md:order-1">
         <h4 className="text-zinc-500 font-semibold text-lg md:text-xl">
           Hello there, my name is

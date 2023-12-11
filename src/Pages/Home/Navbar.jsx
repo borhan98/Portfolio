@@ -11,22 +11,47 @@ const Navbar = () => {
   const menuLink = (
     <>
       <li>
-        <HashLink className="hover:bg-[#43A656] hover:text-white uppercase" smooth to={"#home"}>
+        <HashLink
+          className="hover:bg-[#43A656] hover:text-white uppercase"
+          smooth
+          to={"#home"}
+        >
           Home
         </HashLink>
       </li>
       <li>
-        <HashLink className="hover:bg-[#43A656] hover:text-white uppercase" smooth to={"#about"}>
+        <HashLink
+          className="hover:bg-[#43A656] hover:text-white uppercase"
+          smooth
+          to={"#about"}
+        >
           About
         </HashLink>
       </li>
       <li>
-        <HashLink className="hover:bg-[#43A656] hover:text-white uppercase" smooth to={"#projects"}>
+        <HashLink
+          className="hover:bg-[#43A656] hover:text-white uppercase"
+          smooth
+          to={"#educations"}
+        >
+          Educations
+        </HashLink>
+      </li>
+      <li>
+        <HashLink
+          className="hover:bg-[#43A656] hover:text-white uppercase"
+          smooth
+          to={"#projects"}
+        >
           Projects
         </HashLink>
       </li>
       <li>
-        <HashLink className="hover:bg-[#43A656] hover:text-white uppercase" smooth to={"#skills"}>
+        <HashLink
+          className="hover:bg-[#43A656] hover:text-white uppercase"
+          smooth
+          to={"#skills"}
+        >
           Skills
         </HashLink>
       </li>
@@ -38,7 +63,11 @@ const Navbar = () => {
       <div className="container mx-auto px-2 lg:px-0 navbar">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="p-1 rounded-md bg-[#43A656] text-white lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="p-1 rounded-md bg-[#43A656] text-white lg:hidden"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -75,7 +104,10 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{menuLink}</ul>
         </div>
         <div className="navbar-end">
-          <a className="flex items-center gap-2 border border-[#43A656] p-1 md:p-2 rounded-md text-[12px] md:text-sm lg:text-base" href="callto: +8801707838498">
+          <a
+            className="flex items-center gap-2 border border-[#43A656] p-1 md:p-2 rounded-md text-[12px] md:text-sm lg:text-base"
+            href="callto: +8801707838498"
+          >
             <span className="text-[#43A656]">
               <FaPhoneAlt />
             </span>{" "}
