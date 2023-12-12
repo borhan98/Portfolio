@@ -1,4 +1,6 @@
+import JobPlus from "../../Components/JobPlus";
 import SectionTitle from "../../Components/SectionTitle";
+import TechTroninx from "../../Components/TechTroninx";
 import UniFood from "../../Components/UniFood";
 
 const Projects = () => {
@@ -12,9 +14,13 @@ const Projects = () => {
           }
         />
       </div>
-      <div>
+      <div className="space-y-28">
       {/* Project 1 */}
         <UniFood />
+      {/* Project 2 */}
+        <JobPlus />
+      {/* Project 2 */}
+        <TechTroninx />
       </div>
     </div>
   );

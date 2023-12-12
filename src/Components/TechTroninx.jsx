@@ -1,20 +1,15 @@
-import ssOne from "../assets/UniFood/one.png";
-import ssTwo from "../assets/UniFood/two.png";
-import ssThree from "../assets/UniFood/three.png";
-import ssFour from "../assets/UniFood/five.png";
-import { FaReact, FaNodeJs, FaHtml5 } from "react-icons/fa";
-import {
-  SiFirebase,
-  SiTailwindcss,
-  SiExpress,
-  SiMongodb,
-} from "react-icons/si";
+import { FaHtml5, FaNodeJs, FaReact } from "react-icons/fa6";
+import { SiExpress, SiFirebase, SiMongodb, SiTailwindcss } from "react-icons/si";
+import ssOne from "../assets/TechTronix/one.png";
+import ssTwo from "../assets/TechTronix/two.png";
+import ssThree from "../assets/TechTronix/three.png";
+import ssFour from "../assets/TechTronix/four.png";
 
-const UniFood = () => {
-  return (
-    <div>
+const TechTroninx = () => {
+    return (
+        <div>
       <h3 className="text-xl md:text-2xl font-medium text-zinc-600 mb-4">
-        Students Meal Management
+        Technology based e-commerce
       </h3>
       <div className="divider"></div>
       <div className="grid gap-4 md:grid-cols-2 ">
@@ -36,22 +31,17 @@ const UniFood = () => {
         {/* Project Details part */}
         <div className="space-y-4">
           <h4 className="text-xl md:text-2xl font-medium text-zinc-600 mb-4">
-            Uni<span className="text-[#F89A20] ">Food</span>
+            Tech<span className="text-[#FF5200]">Tronix</span>
           </h4>
           <p>
-            &#39;UniFood&#39; is a hostel meal management system for an
-            university. The hostel authority can serve their meal for their
-            students. There are three types of students membership like Silver,
-            Gold and Platinum.
+            &#39;TechTronix&#39; is a technology based e-commerce website. User can add product to his/her cart. After adding to cart, user can see his/her total products and prices in the cart. This is a running project, still i&#39;m working on this project
           </p>
           <p>
             This is a{" "}
             <strong title="MongoDB, ExpressJS, ReactJS & NodeJS">MERN</strong>{" "}
             stack project. In this project i&#39;ve implement authentication
-            system for client & server site. To authenticate client site
-            i&#39;ve use firebase authentication system & in the server site
-            i&#39;ve used Json Web Token(JWT) authentication system. And there
-            is two layout in the UI One for Admin panel and One for students.
+            system for client site. To authenticate client site
+             i&#39;ve use firebase authentication system.
           </p>
           <p className="flex gap-2 items-center text-xl md:text-2xl ">
             <span>Technology:</span>
@@ -80,19 +70,19 @@ const UniFood = () => {
           <div className="flex gap-2">
             <a
               className="inline-block py-2 md:py-3 lg:py-4 px-4 md:px-5 lg:px-6 mt-4 rounded-md font-bold text-[#43A656] border border-[#43A656] hover:bg-[#43A656] hover:text-white duration-300 "
-              href="https://unifood-84dad.web.app/"
+              href="https://techtronix-cc870.web.app/"
             >
               Live Preview
             </a>
             <a
               className="inline-block py-2 md:py-3 lg:py-4 px-4 md:px-5 lg:px-6 mt-4 rounded-md font-bold text-[#43A656] border border-[#43A656] hover:bg-[#43A656] hover:text-white duration-300 "
-              href="https://github.com/borhan98/UniFood"
+              href="https://github.com/borhan98/TechTronix-client"
             >
               Frontend Code
             </a>
             <a
               className="inline-block py-2 md:py-3 lg:py-4 px-4 md:px-5 lg:px-6 mt-4 rounded-md font-bold text-[#43A656] border border-[#43A656] hover:bg-[#43A656] hover:text-white duration-300 "
-              href="https://github.com/borhan98/UniFood-Server"
+              href="https://github.com/borhan98/TechTronix-Server"
             >
               Backend Code
             </a>
@@ -100,7 +90,7 @@ const UniFood = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
-export default UniFood;
+export default TechTroninx;

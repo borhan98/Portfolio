@@ -1,20 +1,20 @@
-import ssOne from "../assets/UniFood/one.png";
-import ssTwo from "../assets/UniFood/two.png";
-import ssThree from "../assets/UniFood/three.png";
-import ssFour from "../assets/UniFood/five.png";
-import { FaReact, FaNodeJs, FaHtml5 } from "react-icons/fa";
+import { FaHtml5, FaNodeJs, FaReact } from "react-icons/fa6";
 import {
-  SiFirebase,
-  SiTailwindcss,
   SiExpress,
+  SiFirebase,
   SiMongodb,
+  SiTailwindcss,
 } from "react-icons/si";
+import ssOne from "../assets/JobPlus/One.png";
+import ssTwo from "../assets/JobPlus/two.png";
+import ssThree from "../assets/JobPlus/three.png";
+import ssFour from "../assets/JobPlus/four.png";
 
-const UniFood = () => {
+const JobPlus = () => {
   return (
     <div>
       <h3 className="text-xl md:text-2xl font-medium text-zinc-600 mb-4">
-        Students Meal Management
+        Job Seeking Website
       </h3>
       <div className="divider"></div>
       <div className="grid gap-4 md:grid-cols-2 ">
@@ -36,13 +36,13 @@ const UniFood = () => {
         {/* Project Details part */}
         <div className="space-y-4">
           <h4 className="text-xl md:text-2xl font-medium text-zinc-600 mb-4">
-            Uni<span className="text-[#F89A20] ">Food</span>
+            Job<span className="text-[#FF5200]">Plus</span>
           </h4>
           <p>
-            &#39;UniFood&#39; is a hostel meal management system for an
-            university. The hostel authority can serve their meal for their
-            students. There are three types of students membership like Silver,
-            Gold and Platinum.
+            &#39;JobPlus&#39; is a job seeking website.An employeer can post any
+            type of jobs he/she is looking for the candidate. Users can find
+            their job which jobs he/she is looking for and he/she can apply one
+            time to a job post.
           </p>
           <p>
             This is a{" "}
@@ -50,8 +50,7 @@ const UniFood = () => {
             stack project. In this project i&#39;ve implement authentication
             system for client & server site. To authenticate client site
             i&#39;ve use firebase authentication system & in the server site
-            i&#39;ve used Json Web Token(JWT) authentication system. And there
-            is two layout in the UI One for Admin panel and One for students.
+            i&#39;ve used Json Web Token(JWT) authentication system.
           </p>
           <p className="flex gap-2 items-center text-xl md:text-2xl ">
             <span>Technology:</span>
@@ -80,19 +79,19 @@ const UniFood = () => {
           <div className="flex gap-2">
             <a
               className="inline-block py-2 md:py-3 lg:py-4 px-4 md:px-5 lg:px-6 mt-4 rounded-md font-bold text-[#43A656] border border-[#43A656] hover:bg-[#43A656] hover:text-white duration-300 "
-              href="https://unifood-84dad.web.app/"
+              href="https://jobplus-5380c.web.app/"
             >
               Live Preview
             </a>
             <a
               className="inline-block py-2 md:py-3 lg:py-4 px-4 md:px-5 lg:px-6 mt-4 rounded-md font-bold text-[#43A656] border border-[#43A656] hover:bg-[#43A656] hover:text-white duration-300 "
-              href="https://github.com/borhan98/UniFood"
+              href="https://github.com/borhan98/JobPlus-client"
             >
               Frontend Code
             </a>
             <a
               className="inline-block py-2 md:py-3 lg:py-4 px-4 md:px-5 lg:px-6 mt-4 rounded-md font-bold text-[#43A656] border border-[#43A656] hover:bg-[#43A656] hover:text-white duration-300 "
-              href="https://github.com/borhan98/UniFood-Server"
+              href="https://github.com/borhan98/JobPlus-Server"
             >
               Backend Code
             </a>
@@ -103,4 +102,4 @@ const UniFood = () => {
   );
 };
 
-export default UniFood;
+export default JobPlus;
