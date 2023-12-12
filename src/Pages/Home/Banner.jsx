@@ -15,11 +15,9 @@ const Banner = () => {
           A professional Front-End Developer
         </p>
         <a
-          className="py-2 md:py-3 lg:py-5 px-4 md:px-5 lg:px-6 rounded-md font-bold text-[#43A656] border border-[#43A656] hover:bg-[#43A656] hover:text-white duration-300 "
-          href="../../../public/borhan_cv.pdf"
-          download={true}
+          className="py-2 md:py-3 lg:py-5 px-4 md:px-5 lg:px-6 rounded-md font-bold text-[#43A656] border border-[#43A656] hover:bg-[#43A656] hover:text-white duration-300" href="#contact"
         >
-          Get Resume
+          Contact me
         </a>
       </div>
       <div className="mt-10 order-1 md:order-2">

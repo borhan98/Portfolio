@@ -32,6 +32,15 @@ const Navbar = () => {
         <HashLink
           className="hover:bg-[#43A656] hover:text-white uppercase"
           smooth
+          to={"#contact"}
+        >
+          Contact
+        </HashLink>
+      </li>
+      <li>
+        <HashLink
+          className="hover:bg-[#43A656] hover:text-white uppercase"
+          smooth
           to={"#educations"}
         >
           Educations

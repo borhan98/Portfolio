@@ -1,0 +1,26 @@
+[
+  {
+    "id": "abc123",
+    "project_name": "UniFood",
+    "description": "A stunning website with interactive features.",
+    "live_link": "https://unifood-84dad.web.app/",
+    "client_code_link": "https://github.com/borhan98/UniFood",
+    "server_code_link": "https://github.com/borhan98/UniFood-Server"
+  },
+  {
+    "id": "def456",
+    "project_name": "TechTronix",
+    "description": "An innovative mobile app with cutting-edge functionalities.",
+    "live_link": "https://techtronix-cc870.web.app/",
+    "client_code_link": "https://github.com/borhan98/TechTronix-client",
+    "server_code_link": "https://github.com/borhan98/TechTronix-Server"
+  },
+  {
+    "id": "ghi789",
+    "project_name": "JobPlus",
+    "description": "A comprehensive data dashboard for analytics and insights.",
+    "live_link": "https://jobplus-5380c.web.app/",
+    "client_code_link": "https://github.com/borhan98/JobPlus-client",
+    "server_code_link": "https://github.com/borhan98/JobPlus-Server"
+  }
+]

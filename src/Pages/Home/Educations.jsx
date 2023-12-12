@@ -16,7 +16,7 @@ const Educations = () => {
       <ul className="timeline timeline-vertical mt-14">
         <li>
           <div className="timeline-middle p-3 border-4 border-[#43A656] rounded-full ">
-            <span className="text-xl text-[#43A656] ">
+            <span className="text-xl md:text-2xl text-[#43A656] ">
               <FaGraduationCap />
             </span>
           </div>

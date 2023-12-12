@@ -1,7 +1,10 @@
 import About from "./About";
 import Banner from "./Banner";
 import Educations from "./Educations";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Projects from "./Projects";
+import Skills from "./Skills";
 
 const Home = () => {
   return (
@@ -16,12 +19,13 @@ const Home = () => {
       <div className="container mx-auto px-2 lg:px-0">
         <Educations />
       </div>
-      <div id="projects" className="container mx-auto px-2 lg:px-0 py-10">
-        projects
+      <div className="container mx-auto px-2 lg:px-0">
+        <Projects />
       </div>
-      <div id="skills" className="container mx-auto px-2 lg:px-0 py-10">
-        Skills
+      <div className="container mx-auto px-2 lg:px-0">
+        <Skills />
       </div>
+      <Footer />
     </div>
   );
 };
